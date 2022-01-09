@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background:linear-gradient(45deg,#ffa3a3,#8bfaa3,#c1b6ff);
+    min-height: 100vh;
+}
+
+.form-container{
+    background-color: rgb(255, 244, 215);
+    border-radius: 8px;
+    box-shadow: rgba(54, 54, 82, 0.25) 0px 50px 80px -10px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+    width: 25rem;
+    max-width: 100%;
+    border: 3px solid black;
+}
+
+h1{
+    width: 100%;
+    background-color: #00b4fc;
+    margin-top: 0%;
+    border-radius: 8px 8px 0 0;
+    height: 10vh;
+    padding-top: 1rem;
+    color: black;
+    font-size: 1.7rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+form{
+    padding: 1.5rem 2rem;
+}
+
+.form-item{
+    margin-bottom: 0.5rem;
+    padding-bottom: 1.3rem;
+    position: relative;
+    text-align: left;
+}
+
+.form-item label{
+    display: inline-block;
+    margin-bottom: .2rem;
+    
+}
+
+.form-item input{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: .5rem;
+    width: 100%;
+
+}
+
+.form-item small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color:#ff70ac;
+    border:2px solid #000000;
+    color: black;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    font-size: 22px;
+}
+
+button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #ff4392;
+}

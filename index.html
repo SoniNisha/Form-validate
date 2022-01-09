@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css"/>  
+</head>
+<body>
+    <div class="form-container">
+        <h1>Register Yourself !</h1>
+        <form class="form"action="">
+            <div class="form-item">
+                <label for="uname">User Name</label>
+                <input  id="uname" type="text" placeholder="Your Username" >
+                <small id="unameerr">Error message</small>   
+            </div>
+            <div class="form-item">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email">
+                <small id="emailerr">Error message</small>
+            </div>
+            <div class="form-item">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Your Password">
+                <small id="passworderr">Error message</small>
+            </div>
+            <div class="form-item">
+                <label for="password2">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password " id="password2">
+                <small id="password2err">Error message</small>
+            </div>
+            <button  id="btn">Register Me</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
